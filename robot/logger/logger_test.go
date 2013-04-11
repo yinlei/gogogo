@@ -1,12 +1,11 @@
-package logger_test
+package logger
 
 import (
-	"../logger"
 	"testing"
 )
 
 
 func TestLogger(t *testing.T) {
-	logger.Debugf("Debug")
+	//logger.Debugf("Debug")
 }
 

@@ -1,12 +1,7 @@
-package logger_test
+package logger
 
-
-
-import (
-	"../logger"
-)
 
 func ExampleLogger() {
 
-	logger.Debugf("Debug")
+	//logger.Debugf("Debug")
 }
