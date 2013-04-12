@@ -2,22 +2,22 @@
 package logger
 
 import (
-	"fmt"
+	//"fmt"
 	"labix.org/v2/mgo"
-	"labix.org/v2/bson"
+	//"labix.org/v2/mgo/bson"
 )
 
 
 type MongoLogger struct {
-	session mgo.Session
+	session *mgo.Session
 }
 
 
 func NewMongoLogger(url string) *MongoLogger {
-	session, err := mgo.Dial(url)
+	mango_session, err := mgo.Dial(url)
 	if err != nil {
 		panic(err)
 	}
 
-	return &MongoLogger{session: session}
+	return &MongoLogger{session: mango_session}
 }
