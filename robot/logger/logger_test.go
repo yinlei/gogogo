@@ -6,6 +6,6 @@ import (
 
 
 func TestLogger(t *testing.T) {
-	//logger.Debugf("Debug")
+	logger.Debugf("Debug")
 }
 
