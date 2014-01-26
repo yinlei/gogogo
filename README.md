@@ -9,3 +9,4 @@ gogogo
 4. [groupcache](https://github.com/golang/groupcache)
 5. [raft](https://github.com/goraft/raft)
 6. [log4go](http://code.google.com/p/log4go)
+7. [toml](http://github.com/BurntSushi/toml)
