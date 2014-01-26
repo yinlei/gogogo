@@ -21,6 +21,7 @@ go get github.com/codegangsta/martini
 go get github.com/golang/groupcache
 go get github.com/goraft/raft
 go get code.google.com/p/log4go
+go get github.com/BurntSushi/toml
 
 :end
 echo finished
