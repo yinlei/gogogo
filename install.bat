@@ -12,9 +12,7 @@ goto end
 set OLDGOPATH=%GOPATH%
 set GOPATH=%~dp0
 
-gofmt -w src
-
-go install test
+go get code.google.com/p/goprotobuf/{proto,protoc-gen-go}
 
 :end
 echo finished
