@@ -22,6 +22,7 @@ go get github.com/golang/groupcache
 go get github.com/goraft/raft
 go get code.google.com/p/log4go
 go get github.com/BurntSushi/toml
+go get github.com/jmoiron/sqlx
 
 :end
 echo finished
