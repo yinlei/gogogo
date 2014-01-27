@@ -10,3 +10,4 @@ gogogo
 5. [raft](https://github.com/goraft/raft)
 6. [log4go](http://code.google.com/p/log4go)
 7. [toml](http://github.com/BurntSushi/toml)
+8. [sqlx](https://github.com/jmoiron/sqlx)
